@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.path.json.JsonPath;
@@ -25,6 +26,7 @@ public class ExtractDataFromJson {
      
      ArrayList<String> s12=data.get("username");
      System.out.println("value of all username:   "+s12);
+    // Assert.assertEquals(s12,"156");
      
      //(2)find values of all studentid
 

@@ -5,8 +5,11 @@
     <classes>
       <class name="com.tests.simpleCRUDwithTekarch.GetDataTest">
         <methods>
+          <include name="getDataForid2"/>
+          <include name="deleteUserData2"/>
           <include name="init"/>
-          <include name="getUserData"/>
+          <include name="addUserData"/>
+          <include name="deleteUserData"/>
         </methods>
       </class> <!-- com.tests.simpleCRUDwithTekarch.GetDataTest -->
     </classes>
